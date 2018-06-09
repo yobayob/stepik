@@ -24,13 +24,10 @@ def main():
     q = deque()
     q.append(root)
 
-    while True:
+    while q:
 
         # берем вершину из очереди слева
-        try:
-            node = q.popleft()
-        except IndexError:
-            break
+        node = q.popleft()
 
         # обходим очередь в ширину
         for n in graph[node]:
