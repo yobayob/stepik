@@ -7,10 +7,10 @@ def main():
 
     visited = {}
 
-    # инициализируем список смежности
+    # инициализируем матрицу смежности
     graph = [[0 for _ in range(count_of_nodes)] for _ in range(count_of_nodes)]
 
-    # заполняем список смежности
+    # заполняем матрицу смежности
     for _ in range(count_of_edges):
         (node_1, node_2) = (int(x) - 1 for x in input().split(maxsplit=1))
         graph[node_1][node_2] += 1
