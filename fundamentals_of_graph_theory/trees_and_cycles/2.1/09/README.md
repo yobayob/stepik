@@ -13,7 +13,9 @@
 
 Sample Input 1:
 > 4 2
+>
 > 1 2
+>
 > 3 2
 
 Sample Output 1:
@@ -21,8 +23,11 @@ Sample Output 1:
 
 Sample Input 2:
 > 4 3
+>
 > 1 2
+>
 > 3 2
+>
 > 4 3
 
 Sample Output 2:
