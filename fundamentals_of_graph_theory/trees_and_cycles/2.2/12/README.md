@@ -10,7 +10,9 @@
 
 Sample Input 1:
 > 4 2
+>
 > 1 2
+>
 > 3 2
 
 Sample Output 1:
@@ -18,8 +20,11 @@ Sample Output 1:
 
 Sample Input 2:
 > 3 3
+>
 > 1 2
+>
 > 2 3
+>
 > 3 1
 
 Sample Output 2:
